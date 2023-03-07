@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Interés</title>
+</head>
+<body>
+    <nav class="title">
+        <h1 >Calculadora de Interés Simple</h1>
+    </nav>
+    
+    <main class="container">
+        <section class="container-simple">
+            <form class="simple">
+                <div>
+                    <label class="labelCapital">Capital Inicial</label>
+                    <input type="number" name="capital" id="capital" placeholder="S/. ">
+                </div>
+                <div>
+                    <label>Tasa de Interés Anual</label>
+                    <input type="number" name="" id="tea" placeholder="%">
+                </div>
+                <div>
+                    <label>Tiempo</label>
+                    <input type="number" name="" id="tiempo" placeholder="Tiempo">
+                </div>
+            </form>
+            
+            <button id="click" type="button" onclick="calcInteresSimple();">Calcular</button>
+        </section>
+        
+        <section class="result">
+            <p class="resultado"></p>
+            <p class="resultado2"></p>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
