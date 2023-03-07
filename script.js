@@ -14,6 +14,6 @@ function calcInteresSimple(){
     simple = cap*(tasa/100)*time;
     total = cap + simple;
     result.innerHTML = "Los intereses ganados son S/. " + simple;
-    result2.innerHTML = "Al finalizar " + time + " años usted recibirá " + (simple + cap);
+    result2.innerHTML = "Al finalizar " + time + " años usted recibirá S/. " + (simple + cap);
 }
 
